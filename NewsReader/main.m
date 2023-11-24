@@ -1,0 +1,18 @@
+//
+//  main.m
+//  NewsReader
+//
+//  Created by Onkar Mohan Karoshi on 23/11/23.
+//
+
+#import <UIKit/UIKit.h>
+#import "AppDelegate.h"
+
+int main(int argc, char * argv[]) {
+    NSString * appDelegateClassName;
+    @autoreleasepool {
+        // Setup code that might create autoreleased objects goes here.
+        appDelegateClassName = NSStringFromClass([AppDelegate class]);
+    }
+    return UIApplicationMain(argc, argv, nil, appDelegateClassName);
+}
